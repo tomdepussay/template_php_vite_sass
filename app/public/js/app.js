@@ -1,0 +1,1 @@
+/* empty css    */document.addEventListener("DOMContentLoaded",function(n){document.querySelectorAll(".navbar__button").forEach(function(e){e.addEventListener("click",function(c){const t=e.parentElement.querySelector("ul");t.classList.contains("active")?(t.classList.remove("active"),t.style.height=0):(t.classList.add("active"),t.style.height=t.scrollHeight+"px")})})});

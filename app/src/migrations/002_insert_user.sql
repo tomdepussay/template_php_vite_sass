@@ -1,0 +1,1 @@
+INSERT INTO `user` (firstname, lastname, email, password) VALUES ('Tom', 'DEPUSSAY', 'tdepussay@myges.fr', 'password');
