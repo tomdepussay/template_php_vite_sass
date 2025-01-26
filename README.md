@@ -37,8 +37,8 @@ git remote add origin <URL>
 
 ## Migration automatique
 
-Avant le démarrage de votre projet, tous les fichiers de migration en .sql seront automatiquement exécuter dans la base de données.
-Ils seront exécuter dans l'ordre (001 -> 999)
+Avant le démarrage de votre projet, tous les fichiers de migration en .sql seront automatiquement exécuté dans la base de données.
+Ils seront exécutés dans l'ordre. (001 -> 999)
 
 ## Comment démarrer le projet ?
 
@@ -57,12 +57,12 @@ Vérifier bien que les ports suivants ne sont pas déjà utilisés sur votre mac
 docker-compose up -d --build
 ```
 
-Pour arreter l'application sans supprimer les données de la table
+Pour arrêter l'application sans supprimer les données de la table
 ```bash
 docker-compose down
 ```
 
-Pour arreter l'application tout en supprimant les données de la table
+Pour arrêter l'application tout en supprimant les données de la table
 ```bash
 docker-compose down -v
 ```
